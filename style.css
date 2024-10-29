@@ -1,1 +1,42 @@
 /* Empty file for template. Remember to edit only this file and not the HTML file */
+
+/* Looks */
+
+@font-face {
+    font-family: 'Irish Grover' ;
+    src: url()
+}
+
+body {
+    height: 9677px;
+    background: linear-gradient(#000000 17%, #3D437E 42%, #B7E8FF 71%, #FEEA98 100%);
+    font-family: 
+}
+
+/* Sizing */
+
+h3 {
+    font-size: 48px;
+}
+
+p {
+    font-size: 35px;
+}
+
+/* Sections */
+
+abbr[title] {
+    text-decoration: underline dotted;
+}
+
+.preamble {
+    color: white;
+}
+
+.main {
+    color: #FFFC63;
+}
+
+.requirements {
+    color: black;
+}
