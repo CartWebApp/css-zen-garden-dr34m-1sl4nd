@@ -2,16 +2,31 @@
 
 /* Looks */
 
-@font-face {
-    font-family: 'Irish Grover' ;
-    src: url()
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
+
+* {
+    font-family: "Irish Grover", serif;
+    font-weight: 400;
+    font-style: normal; 
 }
 
 body {
     height: 9677px;
     background: linear-gradient(#000000 17%, #3D437E 42%, #B7E8FF 71%, #FEEA98 100%);
-    font-family: 
 }
+
+abbr[title] {
+    text-decoration: underline dotted;
+}
+
+p a {
+    color: #E70087;
+}
+
+a { 
+    color: #FFFC63;
+}
+
 
 /* Sizing */
 
@@ -25,18 +40,49 @@ p {
 
 /* Sections */
 
-abbr[title] {
-    text-decoration: underline dotted;
-}
-
 .preamble {
     color: white;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-end;
+    margin-left: 40%;
+    margin-right: 5%;
+    margin-top: 1200px;
 }
 
 .main {
     color: #FFFC63;
 }
 
+.explanation {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-end;
+    margin-left: 30%;
+    margin-right: 5%;
+}
+
+.participation {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-end;
+    margin-right: 40%;
+    margin-left: 5%;
+}
+
+.benefits {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-end;
+    margin-right: 30%;
+    margin-left: 5%;
+}
+
 .requirements {
     color: black;
+    display: flex;
+    flex-flow: column wrap;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
 }
