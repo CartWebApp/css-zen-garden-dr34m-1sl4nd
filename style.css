@@ -11,6 +11,8 @@
 }
 
 body {
+    display: flex;
+    flex-flow: column wrap;
     height: 9677px;
     background: linear-gradient(#000000 17%, #3D437E 42%, #B7E8FF 71%, #FEEA98 100%);
 }
@@ -21,22 +23,48 @@ abbr[title] {
 
 p a {
     color: #E70087;
+    transition: font-size ease-out 300ms;
 }
 
-a { 
+p a:hover {
+    font-size: 37px;
+}
+
+a {
     color: #FFFC63;
 }
 
+p a:visited {
+    color: #E70087;
+}
+
+a:visited {
+
+}
+
+h1 {
+    position: absolute;
+    z-index: 101;
+    left: 0;
+    width: 650px;
+    height: 205px;
+    text-indent: -10001px;
+    background: url(images/fillerlogo.png) top left no-repeat;
+}
 
 /* Sizing */
 
 h3 {
     font-size: 48px;
+    text-transform: uppercase;
+    margin-bottom: 0;
 }
 
 p {
     font-size: 35px;
+    margin-top: 0;
 }
+
 
 /* Sections */
 
@@ -60,6 +88,7 @@ p {
     justify-content: flex-end;
     margin-left: 30%;
     margin-right: 5%;
+    padding-top: 1334px;
 }
 
 .participation {
@@ -68,6 +97,7 @@ p {
     justify-content: flex-end;
     margin-right: 40%;
     margin-left: 5%;
+    padding-top: 491px;
 }
 
 .benefits {
