@@ -106,6 +106,7 @@ p {
     justify-content: flex-end;
     margin-right: 30%;
     margin-left: 5%;
+    padding-top: 975px;
 }
 
 .requirements {
@@ -115,4 +116,6 @@ p {
     width: 80%;
     margin: 0 auto;
     text-align: center;
+    padding-top: 1111px;
 }
+
