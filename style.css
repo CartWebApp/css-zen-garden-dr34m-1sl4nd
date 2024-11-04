@@ -8,6 +8,7 @@
     font-family: "Irish Grover", serif;
     font-weight: 400;
     font-style: normal; 
+    box-sizing: border-box;
 }
 
 body {
@@ -38,8 +39,15 @@ p a:visited {
     color: #E70087;
 }
 
-a:visited {
-
+aside {
+    display: flex;
+    flex-flow: row wrap;
+    background: url(images/footer.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0%;
+    color: white;
+    
 }
 
 h1 {
